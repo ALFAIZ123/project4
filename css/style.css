@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.container {
+    width: 100%;
+    /* background-color: aliceblue; */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px 0px;
+    /* background-color: red; */
+    position: relative;
+    padding-right: 530px;
+
+}
+nav img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    transform: rotate(180deg); 
+    z-index: -1;
+}
+.Item {
+    display: flex;
+    align-items: center;
+    
+}
+
+.Item li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.Item li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.Item li a:hover{
+    color: rgb(221, 249, 5);
+}
+
+.logo {
+    font-size: 25px;
+    color: blue;
+}
+
+.btn1 {
+    width: 100px;
+    height: 37px;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: orange;
+    border: none;
+}
+
+.uiua {
+    color: rgb(48, 37, 75);
+}
+
+.data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+}
+
+.tag {
+    font-size: 60px;
+}
+
+.btn {
+    color: white;
+    background-color: blue;
+    width: 120px;
+    height: 47px;
+    border: none;
+    border-radius: 30px;
+}
+
+.content {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 170px;
+}
+
+h3 {
+    color: blue;
+}
+
+.shadow {
+    height: 800px;
+}
+
+.box {
+    padding: 23px 12px;
+    margin: 23px 12px;
+    width: 180px;
+    height: 200px;
+}
+
+.loco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.rooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#box1{
+    background-color: rgb(242, 176, 54);
+}
+#box2{
+    background-color: cyan;
+}
+#box3{
+    background-color: rgb(82, 15, 182);
+}
+#box4{
+    background-color: rgb(39, 36, 203);
+}
+#box5{
+    background-color: rgb(64, 63, 100);
+}
+#box6{
+    background-color: rgb(141, 19, 102);
+}
+svg{
+    width: 165px;
+    height: 165px;
+}
+.btn2{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: rgb(240, 6, 6);
+}
